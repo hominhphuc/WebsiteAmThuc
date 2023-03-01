@@ -1,0 +1,16 @@
+twilio:
+  account_sid: XXXX
+  auth_token: XXXX
+  service_id: XXXX
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: XXXX
+            clientSecret: XXXX
+            scope:
+              - email
+              - profile
